@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Color Ball Bounce
 
 You can use the [editor on GitHub](https://github.com/kokopetiyot/Ball-bounce-draw/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
