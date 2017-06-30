@@ -1,0 +1,37 @@
+var ballX = 200;
+var ballY = 200;
+var velX = -2;
+var velY = -2;
+var rectW = 0;
+var color1 = random(0,200);
+var color2 = random(0,200);
+var color3 = random(0,200);
+background(23, 20, 36);
+
+draw = function() {
+        color1 += 1/51;
+        color2 +=1/200;
+        color3 +=1/151;
+    fill(100 * sin(color1)+100, 100 * sin(color2)+100, 100 * sin(color3)+100);
+    ellipse(ballX,ballY,20,20);
+    stroke(23, 20, 36);
+     fill(23, 20, 36);
+    rect(0, 300, 401,100);
+    fill(74, 71, 115);
+    rect(mouseX - 25, 300, 50, 10);
+    ballX+=velX;
+    ballY+=velY;
+    if(abs(ballX-mouseX)<= 40 && abs(300 - ballY) <=5)
+    {
+        velY*=-1;
+    }
+    
+if(ballX>= 400 || ballX <= 0)
+    {
+        velX*=-1;
+    }
+if(ballY<= 0)
+    {
+        velY*=-1;
+    }
+};
