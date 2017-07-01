@@ -2,6 +2,8 @@
 
 You can use the [editor on GitHub](https://github.com/kokopetiyot/Ball-bounce-draw/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
+<h2><a href="https://www.khanacademy.org/computer-programming/draw-ball-pattern/5494395585232896">Draw ball pattern</a><script src="https://www.khanacademy.org/computer-programming/draw-ball-pattern/5494395585232896/embed.js?editor=no&buttons=yes&author=yes&embed=yes"></script><p>Made using: <a href="http://www.khanacademy.org/computer-programming">Khan Academy Computer Science</a></p></h2>
+
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
@@ -10,6 +12,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 ```markdown
 Syntax highlighted code block
+
 
 # Header 1
 ## Header 2
